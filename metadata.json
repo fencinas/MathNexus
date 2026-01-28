@@ -3,5 +3,10 @@
   "description": "A feature-rich scientific calculator with AI-powered problem solving and a sleek, responsive design.",
   "requestFramePermissions": [
     "camera"
-  ]
+  ],
+  "deployment": {
+    "platform": "Vercel",
+    "preset": "Other",
+    "outputDirectory": "."
+  }
 }
