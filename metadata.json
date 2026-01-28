@@ -1,0 +1,7 @@
+{
+  "name": "MathNexus - Modern AI Calculator",
+  "description": "A feature-rich scientific calculator with AI-powered problem solving and a sleek, responsive design.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}

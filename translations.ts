@@ -1,0 +1,75 @@
+
+import { Language } from './types';
+
+export const translations = {
+  [Language.EN]: {
+    calculator: 'Calculator',
+    aiSolver: 'AI Solver',
+    units: 'Units',
+    history: 'History',
+    scientific: 'Scientific',
+    standard: 'Standard',
+    on: 'On',
+    off: 'Off',
+    aiAssistant: 'AI Math Assistant',
+    aiInstruction: 'Ask a question or upload a photo of a math problem.',
+    aiPlaceholder: "E.g., What is the derivative of x^2? or 'Solve for x: 2x + 5 = 15'",
+    addPhoto: 'Add Photo',
+    changePhoto: 'Change Image',
+    solveWithAi: 'Solve with AI',
+    solution: 'Solution',
+    explanation: 'Explanation',
+    steps: 'Steps',
+    clearAll: 'Clear All',
+    noCalculations: 'No calculations yet',
+    unitConverter: 'Unit Converter',
+    valueToConvert: 'Value to Convert',
+    from: 'From',
+    to: 'To',
+    result: 'Result',
+    categories: {
+      Length: 'Length',
+      Weight: 'Weight',
+      Temperature: 'Temperature',
+      Area: 'Area',
+      Volume: 'Volume'
+    },
+    poweredBy: 'Powered by Encinas',
+    systemInstruction: "You are an expert math tutor. Solve the math problem provided. Provide a clear solution, a concise explanation, and step-by-step instructions. Always respond in JSON format. Respond in English."
+  },
+  [Language.ES]: {
+    calculator: 'Calculadora',
+    aiSolver: 'Asistente IA',
+    units: 'Unidades',
+    history: 'Historial',
+    scientific: 'Científica',
+    standard: 'Estándar',
+    on: 'Encendido',
+    off: 'Apagado',
+    aiAssistant: 'Asistente Matemático IA',
+    aiInstruction: 'Haz una pregunta o sube una foto de un problema matemático.',
+    aiPlaceholder: "Ej: ¿Cuál es la derivada de x^2? o 'Resuelve x: 2x + 5 = 15'",
+    addPhoto: 'Añadir Foto',
+    changePhoto: 'Cambiar Imagen',
+    solveWithAi: 'Resolver con IA',
+    solution: 'Solución',
+    explanation: 'Explicación',
+    steps: 'Pasos',
+    clearAll: 'Borrar Todo',
+    noCalculations: 'Sin cálculos aún',
+    unitConverter: 'Conversor de Unidades',
+    valueToConvert: 'Valor a convertir',
+    from: 'De',
+    to: 'A',
+    result: 'Resultado',
+    categories: {
+      Length: 'Longitud',
+      Weight: 'Peso',
+      Temperature: 'Temperatura',
+      Area: 'Área',
+      Volume: 'Volumen'
+    },
+    poweredBy: 'Desarrollado por Encinas',
+    systemInstruction: "Eres un tutor experto en matemáticas. Resuelve el problema matemático proporcionado. Proporciona una solución clara, una explicación concisa e instrucciones paso a paso. Responde siempre en formato JSON. Responde en Español."
+  }
+};
