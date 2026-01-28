@@ -6,7 +6,7 @@
   ],
   "deployment": {
     "platform": "Vercel",
-    "preset": "Other",
-    "outputDirectory": "."
+    "preset": "Vite",
+    "outputDirectory": "dist"
   }
 }
